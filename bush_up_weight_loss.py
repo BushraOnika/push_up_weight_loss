@@ -10,8 +10,7 @@ class Exercises:
     def add_exercise(self,exercise_name,lossing_weight):
         self.exercise_dic[exercise_name]= lossing_weight
 
-    def print_exercises_name(self):
-        print(list(self.exercise_dic.keys())[1])
+    def print_exercises_name(self): 
         for i, k in enumerate(self.exercise_dic, start=1):
             print(i,".", k)
 
